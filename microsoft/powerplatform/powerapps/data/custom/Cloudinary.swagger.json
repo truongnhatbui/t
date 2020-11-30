@@ -1,0 +1,58 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Cloudinary",
+    "description": "Cloudinary",
+    "version": "1.1"
+  },
+  "host": "api.cloudinary.com",
+  "basePath": "/v1_1/roadstour",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/ping": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "ping",
+        "description": "Check API",
+        "operationId": "Ping",
+        "parameters": []
+      }
+    },
+    "/resources": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Get Resources",
+        "description": "Lists resources (assets) uploaded to your account",
+        "operationId": "GetResources"
+      }
+    }
+  },
+  "definitions": {},
+  "parameters": {},
+  "responses": {},
+  "securityDefinitions": {
+    "basic_auth": {
+      "type": "basic"
+    }
+  },
+  "security": [
+    {
+      "basic_auth": []
+    }
+  ],
+  "tags": []
+}
