@@ -1,6 +1,6 @@
 # T
 T Project
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/truong)
+T - Cloud Native Technology Project Template 
 1. Microservices
 Recommended Technology: 
     Node.js - https://nodejs.org/
